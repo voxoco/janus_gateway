@@ -40,6 +40,7 @@ RUN apt-get update && apt-get install -y \
 	gengetopt \
 	libssl-dev \
 	openssl \
+	libconfig-dev \
 	libcurl4-openssl-dev
 RUN cd /root && wget https://nice.freedesktop.org/releases/libnice-0.1.13.tar.gz && \
 	tar xvf libnice-0.1.13.tar.gz && \
